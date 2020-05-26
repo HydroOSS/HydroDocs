@@ -1,4 +1,4 @@
-# Endpoints (v1)
+# v1
 
 These are the currently-supported endpoints that the Hydro API allows you to use. Note that all v1 endpoints are served at `/api/v1`; this allows you to have a grace period of upgrading your client when we release new versions.
 

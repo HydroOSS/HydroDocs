@@ -43,7 +43,7 @@ nav:
       - api/index.md
       - api/limits.md
       - Endpoints:
-        - api/endpoints/index.md
+        - v1: api/endpoints/index.md
         - Resources:
           - api/endpoints/resources/index.md
           - api/endpoints/resources/servers.md

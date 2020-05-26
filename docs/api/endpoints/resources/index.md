@@ -1,4 +1,4 @@
-# Resources
+# Brochure
 
 !!! warning
     Some responses are incomplete and could return more. This will be fixed in later revisions of the documentation.
