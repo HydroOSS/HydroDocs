@@ -204,7 +204,7 @@ The main thing that the API serves is resources like server data. The full list 
 ```json
 {
   "data": {
-    "id": "strike_id",
+    "id": "merit_id",
     "guildID": "guild_id",
     "offender": "user_id",
     "staffMember": "user_id",
