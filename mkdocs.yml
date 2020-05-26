@@ -1,0 +1,45 @@
+site_name: Hydro Docs
+repo_name: HydroOSS/HydroDocs
+repo_url: https://github.com/HydroOSS/HydroDocs
+theme:
+  name: material
+  features:
+    - tabs
+  palette:
+    # scheme: slate
+    primary: pink
+    accent: red
+
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - codehilite:
+      linenums: true
+  - admonition
+  - toc:
+      permalink: true
+  - meta
+
+plugins:
+  - search
+
+nav:
+  - Welcome:
+      - index.md
+  - Bot:
+      - bot/index.md
+  - API:
+      - api/index.md
+      - api/limits.md
+      - api/endpoints.md
