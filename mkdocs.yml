@@ -6,7 +6,7 @@ theme:
   features:
     - tabs
   palette:
-    scheme: slate
+    # scheme: slate
     primary: pink
     accent: red
 
