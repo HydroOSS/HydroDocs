@@ -42,4 +42,12 @@ nav:
   - API:
       - api/index.md
       - api/limits.md
-      - api/endpoints.md
+      - Endpoints:
+        - api/endpoints/index.md
+        - Resources:
+          - api/endpoints/resources/index.md
+          - api/endpoints/resources/servers.md
+          - api/endpoints/resources/users.md
+          - api/endpoints/resources/strikes.md
+          - api/endpoints/resources/merits.md
+          - api/endpoints/resources/giveaways.md
