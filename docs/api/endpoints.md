@@ -84,14 +84,16 @@ The main thing that the API serves is resources like server data. The full list 
     $ curl https://api.hydrobot.me/api/v1/resources/users/my_user_id
     ```
 === "JavaScript"
-    This example uses [window.fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)/[node-fetch](https://github.com/node-fetch/node-fetch). Try pasting it in your browser console!
+    !!! info
+        This example uses [window.fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)/[node-fetch](https://github.com/node-fetch/node-fetch). Try pasting it in your browser console!
     ```js  
     const url = "https://api.hydrobot.me/api/v1/resources/users/my_user_id";
     const resp = await (await window.fetch(url)).json();
     console.log(resp);
     ```
 === "Python"
-    This example uses [requests](https://pypi.org/project/requests).
+    !!! info
+        This example uses [requests](https://pypi.org/project/requests).
     ```py
     import requests
 
