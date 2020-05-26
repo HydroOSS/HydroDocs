@@ -168,7 +168,7 @@ The main thing that the API serves is resources like server data. The full list 
 }
 ```
 
-### `GET` /api/v1/resources/merits/:id
+### `GET` /api/v1/resources/giveaways/:id
 
 | Returns          | Public | Ratelimits  |
 |------------------|--------|-------------|
@@ -178,13 +178,13 @@ The main thing that the API serves is resources like server data. The full list 
 
 === "cURL"
     ```bash
-    $ curl https://api.hydrobot.me/api/v1/resources/merits/a_merit_id
+    $ curl https://api.hydrobot.me/api/v1/resources/giveaways/a_giveaway_id
     ```
 === "JavaScript"
     !!! info
         This example uses [window.fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)/[node-fetch](https://github.com/node-fetch/node-fetch). Try pasting it in your browser console!
     ```js  
-    const url = "https://api.hydrobot.me/api/v1/resources/merits/a_merit_id";
+    const url = "https://api.hydrobot.me/api/v1/resources/giveaways/a_giveaway_id";
     const resp = await (await window.fetch(url)).json();
     console.log(resp);
     ```
@@ -194,7 +194,7 @@ The main thing that the API serves is resources like server data. The full list 
     ```py
     import requests
 
-    url = 'https://api.hydrobot.me/api/v1/resources/merits/a_merit_id'
+    url = 'https://api.hydrobot.me/api/v1/resources/giveaways/a_giveaway_id'
     resp = requests.get(url=url).json()
     print(resp)
     ```
